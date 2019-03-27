@@ -20,15 +20,7 @@ public class ThreadCavaleiro extends Thread{
 		this.idCavaleiro=idc;
 		this.possuiTocha=0;
 		this.possuiPedra=0;
-//		this.tochaFoiPega=false;
-//		this.pedrafoiPega=false;
-//		this.idCavaleiroporta = new Semaphore[4];
-//		this.idCavaleiroporta[0]=new Semaphore(1);
-//		this.idCavaleiroporta[1]=new Semaphore(1);
-//		this.idCavaleiroporta[2]=new Semaphore(1);
-//		this.idCavaleiroporta[3]=new Semaphore(1);
 		this.semaforoPorta=new Semaphore(1);
-//		this.idPortaCerta=(int)(Math.random()*4);
 		
 		 this.portas= new ArrayList<Integer>();
 		 portas.add(0);
